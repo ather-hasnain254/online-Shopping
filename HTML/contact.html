@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ionicons icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Shopping Store</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <header class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span
+            class="ml-3 text-xl font-extrabold text-purple-700 hover:cursor-pointer"
+            >LOGO</span
+          >
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a
+            href="./home.html"
+            class="mx-5 text-purple-700 font-semibold hover:text-white hover:bg-purple-700 hover:rounded-md px-2 hover:cursor-pointer"
+            >Home</a
+          >
+          <a
+            href="./contact.html"
+            class="mx-5 text-purple-700 font-semibold hover:text-white hover:bg-purple-700 hover:rounded-md px-2 hover:cursor-pointer"
+            >Contact</a
+          >
+          <a
+            href="./login.html"
+            class="mx-5 text-purple-700 font-semibold hover:text-white hover:bg-purple-700 hover:rounded-md px-2 hover:cursor-pointer"
+            >Login</a
+          >
+          <a
+            href="./registration.html"
+            class="mx-5 text-purple-700 font-semibold hover:text-white hover:bg-purple-700 hover:rounded-md px-2 hover:cursor-pointer"
+            >Register</a
+          >
+        </nav>
+        <button
+          class="inline-flex items-center text-white bg-purple-700 border-0 py-1 px-2 hover:bg-purple-900 hover:font-semibold rounded text-base mt-4 md:mt-0"
+        >
+          <a href="./product.html">Product</a>
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar finish -->
+
+    <!-- Contact start -->
+    <div class="flex w-full min-h-screen justify-center items-center">
+      <div
+        class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-purple-700 w-full max-w-6xl p-16 sm:p-16 rounded-2xl shadow-2xl text-white overflow-hidden"
+      >
+        <div class="flex flex-col space-y-6 justify-between">
+          <div>
+            <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
+            <p class="pt-2 text-white text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur tempora suscipit, incidunt vel esse Consequatur
+              tempora suscipit, incidunt consectetur suscipit incidunt vel?
+            </p>
+          </div>
+          <div class="flex flex-col space-y-4">
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon name="call" class="text-white text-xl"></ion-icon>
+              <span>+92 3414589088</span>
+            </div>
+
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon name="mail" class="text-white text-xl"></ion-icon>
+              <span>contact@abcwebsite.com</span>
+            </div>
+
+            <div class="inline-flex space-x-2 items-center">
+              <ion-icon name="location" class="text-white text-xl"></ion-icon>
+              <span>F11, Street 45, Islamabad</span>
+            </div>
+          </div>
+          <div class="flex space-x-4 text-xl">
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="absolute z-0 w-48 h-48 bg-pink-300 rounded-full -right-24 -top-24"
+          ></div>
+          <div
+            class="absolute z-0 w-80 h-80 bg-pink-300 rounded-xl -left-10 -bottom-10 shadow-2xl"
+          ></div>
+          <div
+            class="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-96"
+          >
+            <form action="" class="flex flex-col space-y-4">
+              <div>
+                <label for="" class="text-sm">Your name</label>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-700"
+                />
+              </div>
+              <div>
+                <label for="" class="text-sm">Email Address</label>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-700"
+                />
+              </div>
+              <div>
+                <label for="" class="text-sm">Message</label>
+                <textarea
+                  placeholder="Message"
+                  rows="4"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-700"
+                ></textarea>
+              </div>
+              <button
+                class="inline-block self-end bg-purple-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-purple-700 hover:cursor-pointer"
+        >
+          <span class="ml-3 text-xl">Logo</span>
+        </a>
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2022 Company Name —
+          <a
+            href="https://twitter.com/knyttneve"
+            class="text-gray-600 ml-1"
+            rel="noopener noreferrer"
+            target="_blank"
+            >@Hasnain</a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start mr-6"
+        >
+          <a href="#" class="text-purple-700">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-purple-700">
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-purple-700">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a href="#" class="ml-3 text-purple-700">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
